@@ -1,4 +1,4 @@
-package com.andview.example.recylerview;
+package com.andview.example.moduler;
 
 public class Person {
 	private String name, age;

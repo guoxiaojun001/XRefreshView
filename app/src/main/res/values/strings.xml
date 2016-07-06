@@ -6,9 +6,4 @@
     <string name="clear_data">恢复数据</string>
     <string name="click_to_refresh">点击刷新</string>
 
-
-    <color name="color_orange">#EC8561</color>
-    <color name="white">#FFFFFF</color>
-    <color name="nomal_bg">#EEEEEE</color>
-
 </resources>

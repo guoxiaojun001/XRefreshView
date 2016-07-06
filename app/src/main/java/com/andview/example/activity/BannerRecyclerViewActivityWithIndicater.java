@@ -16,7 +16,7 @@ import android.widget.Toast;
 import com.andview.example.DensityUtil;
 import com.andview.example.IndexPageAdapter;
 import com.andview.example.R;
-import com.andview.example.recylerview.Person;
+import com.andview.example.moduler.Person;
 import com.andview.example.recylerview.SimpleAdapter;
 import com.andview.example.ui.BannerViewPager;
 import com.andview.example.ui.CustomGifHeader;

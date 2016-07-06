@@ -35,6 +35,12 @@
 
 
         <activity android:name=".activity.BannerRecyclerViewActivityWithIndicater"/>
+
+        <activity android:name=".swipeactivity.SwipeMainActivity"/>
+        <activity android:name=".swipeactivity.SimpleRecycleListActivity"/>
+        <activity android:name=".swipeactivity.DifferentRecycleListActivity"/>
+        <activity android:name=".swipeactivity.RecycleGridActivity"/>
+        <activity android:name=".swipeactivity.StaggeredGridRvActivity"/>
     </application>
 
 </manifest>

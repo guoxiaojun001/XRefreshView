@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.andview.example.R;
+import com.andview.example.swipeactivity.SwipeMainActivity;
 
 public class MainActivity extends Activity {
 
@@ -41,7 +42,10 @@ public class MainActivity extends Activity {
                 break;
             case R.id.bt_rain:
                 intent = new Intent(this, BannerRecyclerViewActivityWithIndicater.class);
-                startActivity(intent);
+                break;
+
+            case R.id.other:
+                intent = new Intent(this, SwipeMainActivity.class);
                 break;
             default:
                 break;

@@ -10,7 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.andview.example.R;
-import com.andview.example.recylerview.Person;
+import com.andview.example.moduler.Person;
 import com.andview.example.recylerview.SimpleAdapter;
 import com.andview.refreshview.XRefreshView;
 import com.andview.refreshview.XRefreshView.SimpleXRefreshListener;

@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.andview.example.DensityUtil;
 import com.andview.example.R;
+import com.andview.example.moduler.Person;
 import com.andview.refreshview.recyclerview.BaseRecyclerAdapter;
 
 import java.util.List;

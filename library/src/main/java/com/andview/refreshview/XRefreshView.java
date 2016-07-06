@@ -368,7 +368,8 @@ public class XRefreshView extends LinearLayout {
                 // mRefreshViewListener.onRelease(mHolder.mOffsetY);
                 // }
                 if (mHolder.hasHeaderPullDown()) {
-                    if (mEnablePullRefresh && !mStopingRefresh && !mPullRefreshing && mHolder.mOffsetY > mHeaderViewHeight) {
+                    if (mEnablePullRefresh && !mStopingRefresh &&
+                            !mPullRefreshing && mHolder.mOffsetY > mHeaderViewHeight) {
                         mPullRefreshing = true;
                         mHeaderCallBack.onStateRefreshing();
                         mState = XRefreshViewState.STATE_REFRESHING;
@@ -403,7 +404,7 @@ public class XRefreshView extends LinearLayout {
                 && !mHasLoadComplete) {
             int offset = 0 - mHolder.mOffsetY - mFootHeight;
             if (offset != 0) {
-                startScroll(offset, SCROLL_DURATION);
+//                startScroll(offset, SCROLL_DURATION);
             }
             if (!mPullLoading) {
                 mFooterCallBack.onStateRefreshing();

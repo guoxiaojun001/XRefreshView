@@ -41,9 +41,9 @@ public class ListViewActivity extends Activity {
 		lv.setAdapter(adapter);
 
 		// 设置是否可以下拉刷新
-		refreshView.setPullRefreshEnable(false);
+		refreshView.setPullRefreshEnable(true);
 		// 设置是否可以上拉加载
-		refreshView.setPullLoadEnable(false);
+		refreshView.setPullLoadEnable(true);
 		// 设置上次刷新的时间
 		refreshView.restoreLastRefreshTime(lastRefreshTime);
 		// 设置时候可以自动刷新

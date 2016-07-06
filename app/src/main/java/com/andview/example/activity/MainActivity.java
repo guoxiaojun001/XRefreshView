@@ -40,8 +40,8 @@ public class MainActivity extends Activity {
                 intent = new Intent(this, HeadAdActivity.class);
                 break;
             case R.id.bt_rain:
-//                intent = new Intent(this, RainDropActivity.class);
-//                startActivity(intent);
+                intent = new Intent(this, BannerRecyclerViewActivityWithIndicater.class);
+                startActivity(intent);
                 break;
             default:
                 break;

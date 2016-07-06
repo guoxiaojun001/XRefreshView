@@ -3,6 +3,8 @@
     package="com.andview.example">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -30,6 +32,9 @@
         <activity android:name=".activity.GridRecyclerViewActivity" />
         <activity android:name=".activity.StaggeredRecyclerViewActivity" />
         <activity android:name=".activity.SlienceRecyclerViewActivity" />
+
+
+        <activity android:name=".activity.BannerRecyclerViewActivityWithIndicater"/>
     </application>
 
 </manifest>

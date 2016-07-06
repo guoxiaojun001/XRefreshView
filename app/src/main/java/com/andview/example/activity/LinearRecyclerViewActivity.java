@@ -37,10 +37,10 @@ public class LinearRecyclerViewActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recylerview2);
-        xRefreshView = (XRefreshView) findViewById(R.id.xrefreshview);
-        xRefreshView.setPullLoadEnable(true);
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view_test_rv);
-        recyclerView.setHasFixedSize(true);
+            xRefreshView = (XRefreshView) findViewById(R.id.xrefreshview);
+            xRefreshView.setPullLoadEnable(true);
+            recyclerView = (RecyclerView) findViewById(R.id.recycler_view_test_rv);
+            recyclerView.setHasFixedSize(true);
 
         initData();
         adapter = new SimpleAdapter(personList, this);
@@ -56,6 +56,7 @@ public class LinearRecyclerViewActivity extends Activity {
         xRefreshView.setMoveForHorizontal(true);
         xRefreshView.setAutoLoadMore(false);
         adapter.setCustomLoadMoreView(new XRefreshViewFooter(this));
+
         //设置静默加载时提前加载的item个数
 //        xRefreshView.setPreLoadCount(4);
 
@@ -109,7 +110,7 @@ public class LinearRecyclerViewActivity extends Activity {
     }
 
     private void initData() {
-        for (int i = 0; i < 30; i++) {
+        for (int i = 0; i < 5; i++) {
             Person person = new Person("name" + i, "" + i);
             personList.add(person);
         }

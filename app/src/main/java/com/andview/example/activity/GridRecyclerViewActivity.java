@@ -48,7 +48,7 @@ public class GridRecyclerViewActivity extends Activity {
 //        xRefreshView.setAutoLoadMore(true);
         xRefreshView.setPinnedTime(1000);
         xRefreshView.setMoveForHorizontal(true);
-        adapter.setCustomLoadMoreView(new XRefreshViewFooter(this));
+            adapter.setCustomLoadMoreView(new XRefreshViewFooter(this));
 //		xRefreshView.setPullLoadEnable(false);
         //设置静默加载时提前加载的item个数
 //		xRefreshView.setPreLoadCount(2);

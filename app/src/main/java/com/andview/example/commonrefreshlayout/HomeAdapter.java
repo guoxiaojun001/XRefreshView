@@ -55,7 +55,8 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(holder.itemView.getContext(), ""+datas.get(position), Toast.LENGTH_SHORT).show();
+                Toast.makeText(holder.itemView.getContext(),
+                        ""+datas.get(position), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -115,7 +116,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
      */
     public void add(){
         int length = datas.size();
-        for(int i=length ;i<length+20;i++){
+        for(int i=length ;i<length+50;i++){
             datas.add(i+"");
         }
         notifyDataSetChanged();

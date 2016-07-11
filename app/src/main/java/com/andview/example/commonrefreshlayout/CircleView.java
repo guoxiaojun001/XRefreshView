@@ -94,7 +94,7 @@ public class CircleView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
 
-        float degree = 360/colors.length/2f;
+        float degree = 360/colors.length;
 
         for (int i = 0; i < 8; i++) {
             mArcPaint.setColor(colors[i%4]);

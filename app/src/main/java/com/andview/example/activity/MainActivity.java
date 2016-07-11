@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
             case R.id.bt_headAd:
                 intent = new Intent(this, HeadAdActivity.class);
                 break;
-            case R.id.bt_rain:
+            case R.id.bt_banner:
                 intent = new Intent(this, BannerRecyclerViewActivityWithIndicater.class);
                 break;
 

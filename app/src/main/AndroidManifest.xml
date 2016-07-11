@@ -41,6 +41,8 @@
         <activity android:name=".swipeactivity.DifferentRecycleListActivity"/>
         <activity android:name=".swipeactivity.RecycleGridActivity"/>
         <activity android:name=".swipeactivity.StaggeredGridRvActivity"/>
+
+        <activity android:name=".commonrefreshlayout.RefreshLoadingRecycleActivity"/>
     </application>
 
 </manifest>

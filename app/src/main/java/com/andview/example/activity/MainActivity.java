@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.andview.example.R;
 import com.andview.example.commonrefreshlayout.RefreshLoadingRecycleActivity;
+import com.andview.example.commonrefreshlayout.RefreshLoadingRecycleActivity2;
 import com.andview.example.swipeactivity.SwipeMainActivity;
 
 public class MainActivity extends Activity {
@@ -50,7 +51,7 @@ public class MainActivity extends Activity {
                 break;
 
             case R.id.refresh_load:
-                intent = new Intent(this, RefreshLoadingRecycleActivity.class);
+                intent = new Intent(this, RefreshLoadingRecycleActivity2.class);
                 break;
 
             default:

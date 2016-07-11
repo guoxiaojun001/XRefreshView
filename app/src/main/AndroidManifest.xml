@@ -19,6 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".activity.CustomViewActivity" />
         <activity android:name=".activity.GridViewActivity" />
         <activity android:name=".activity.ListViewActivity" />
@@ -43,6 +44,7 @@
         <activity android:name=".swipeactivity.StaggeredGridRvActivity"/>
 
         <activity android:name=".commonrefreshlayout.RefreshLoadingRecycleActivity"/>
+        <activity android:name=".commonrefreshlayout.RefreshLoadingRecycleActivity2"/>
     </application>
 
 </manifest>
